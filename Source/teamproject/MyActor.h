@@ -1,3 +1,4 @@
+// MyActor.h
 
 #pragma once
 
@@ -9,9 +10,10 @@ UCLASS()
 class TEAMPROJECT_API AMyActor : public AActor
 {
 	GENERATED_BODY()
-	
-public:	
 
+public:
 	AMyActor();
+
+	virtual void BeginPlay() override;
 
 };
